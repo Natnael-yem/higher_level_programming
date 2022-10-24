@@ -6,5 +6,4 @@ class MyList(list):
 
     def print_sorted(self):
         """print a list in sorted ascending order."""
-    if issubclass(MyList, list):
         print(sorted(self))
